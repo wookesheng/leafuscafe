@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Welcome to Leaf Us Café - Your cozy spot for coffee and relaxation">
+
+	<!-- Website Logo -->
+	<link rel="icon" type="image/png" href="asset/other/logo.png">
+
+	<!-- Linked CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/founder card.css">
+
+	<!-- Font Icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+	<!-- Font Type -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTXMH03YM8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MTXMH03YM8');
+</script>
+
+	<!-- Website Title -->
+	<title>Leaf Us Café - Your Cozy Coffee Spot</title>
+
+</head>
+<body>
+
+	<!-- Custom Scrollbar -->
+	<div id="progressbar"></div>
+	<div id="scrollPath"></div>
+
+	<!-- Header -->
+	<header>
+		<div class="cafe">
+			<img class="logo" src="asset/other/logo.png" alt="Leaf Us Café Logo">
+			<div class="name">Leaf Us Café</div>
+		</div>
+
+		<nav>
+			<ul class="nav_link">
+				<li><a href="#home_background"><i class="fa-solid fa-house-chimney"></i><span>Home</span></a></li>
+				<li><a href="#menu_background"><i class="fa-solid fa-utensils"></i><span>Menu</span></a></li>
+				<li><a href="#event_background"><i class="fa-solid fa-tags"></i><span>Events</span></a></li>
+				<li><a href="#about_background"><i class="fa-solid fa-circle-info"></i><span>About</span></a></li>
+			</ul>
+		</nav>
+
+		<img class="cart-icon" src="asset/other/shopping_cart.png" alt="Shopping Cart">
+		<button class="mobile-menu-btn">
+			<i class="fa-solid fa-bars"></i>
+		</button>
+	</header>
+
+	<!-- Hero Section -->
+	<section id="home_background">
+		<div class="container">
+			<h1 class="home-title">Welcome to Leaf Us Café</h1>
+			<div class="Home_content">
+				<!-- Slideshow -->
+				<div class="slider">
+					<div class="slides">
+						<!-- slide buttons -->
+						<input type="radio" name="btn" id="radio1" checked>
+						<input type="radio" name="btn" id="radio2">
+						<input type="radio" name="btn" id="radio3">
+
+						<!-- slides images -->
+						<div class="slide first">
+							<img src="asset/slide/welcome.jpg" alt="Welcome to Leaf Us Café">
+						</div>
+						<div class="slide">
+							<img src="asset/slide/hours.jpg" alt="Opening Hours">
+						</div>
+						<div class="slide">
+							<img src="asset/slide/quote.jpg" alt="Our Quote">
+						</div>
+
+						<!-- auto navigation -->
+						<div class="autoslide">
+							<div class="autobtn1"></div>
+							<div class="autobtn2"></div>
+							<div class="autobtn3"></div>
+						</div>
+					</div>
+
+					<!-- manual navigation -->
+					<div class="manualslide">
+						<label for="radio1" class="manual_btn"></label>
+						<label for="radio2" class="manual_btn"></label>
+						<label for="radio3" class="manual_btn"></label>
+					</div>
+				</div>
+
+				<!-- Video Section -->
+				<div class="video-container">
+					<video loop muted autoplay="autoplay" playsinline>
+						<source src="asset/video/Cafe.mp4" type="video/mp4">
+					</video>
+					<div class="video-overlay">
+						<img src="asset/video/mask1.jpg" alt="Video Overlay">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Features Section -->
+	<section class="features">
+		<div class="container">
+			<h2 class="section-title">Why Choose Us</h2>
+			<div class="features-grid">
+				<div class="feature-card">
+					<div class="icon-wrapper">
+						<i class="fa-solid fa-mug-hot"></i>
+					</div>
+					<h3>Premium Coffee</h3>
+					<p>Carefully selected beans, expertly roasted for the perfect cup every time. Experience the rich flavors and aromas of our premium coffee selection.</p>
+					<div class="feature-footer">
+						<span class="feature-stat">20+ Coffee Varieties</span>
+					</div>
+				</div>
+				<div class="feature-card">
+					<div class="icon-wrapper">
+						<i class="fa-solid fa-leaf"></i>
+					</div>
+					<h3>Eco-Friendly</h3>
+					<p>Committed to sustainable practices and environmental consciousness. We use biodegradable packaging and support local farmers.</p>
+					<div class="feature-footer">
+						<span class="feature-stat">100% Sustainable</span>
+					</div>
+				</div>
+				<div class="feature-card">
+					<div class="icon-wrapper">
+						<i class="fa-solid fa-wifi"></i>
+					</div>
+					<h3>Free Wi-Fi</h3>
+					<p>Stay connected while enjoying your favorite beverages. High-speed internet perfect for work or leisure.</p>
+					<div class="feature-footer">
+						<span class="feature-stat">High-Speed Connection</span>
+					</div>
+				</div>
+				<div class="feature-card">
+					<div class="icon-wrapper">
+						<i class="fa-solid fa-cookie-bite"></i>
+					</div>
+					<h3>Fresh Pastries</h3>
+					<p>Indulge in our freshly baked pastries and desserts, made daily with premium ingredients.</p>
+					<div class="feature-footer">
+						<span class="feature-stat">Baked Daily</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Menu Section -->
+	<section id="menu_background">
+		<div class="container">
+			<h2 class="section-title">Our Menu</h2>
+			<div class="menu-grid">
+				<div class="menu-item">
+					<div class="menu-image">
+						<img src="asset/menu/chocolate milk.jpg" alt="Chocolate Milk">
+						<div class="menu-overlay">
+							<a href="menu.html" class="menu-btn">View Details</a>
+						</div>
+					</div>
+					<div class="menu-info">
+						<h3>Chocolate Milk</h3>
+						<span class="menu-category">Beverages</span>
+					</div>
+				</div>
+				<div class="menu-item">
+					<div class="menu-image">
+						<img src="asset/menu/mango frappe.jpg" alt="Mango Frappe">
+						<div class="menu-overlay">
+							<a href="menu.html" class="menu-btn">View Details</a>
+						</div>
+					</div>
+					<div class="menu-info">
+						<h3>Mango Frappe</h3>
+						<span class="menu-category">Beverages</span>
+					</div>
+				</div>
+				<div class="menu-item">
+					<div class="menu-image">
+						<img src="asset/menu/jasmine green milk tea.jpg" alt="Jasmine Green Milk Tea">
+						<div class="menu-overlay">
+							<a href="menu.html" class="menu-btn">View Details</a>
+						</div>
+					</div>
+					<div class="menu-info">
+						<h3>Jasmine Green Milk Tea</h3>
+						<span class="menu-category">Beverages</span>
+					</div>
+				</div>
+				<div class="menu-item">
+					<div class="menu-image">
+						<img src="asset/menu/french chocolate croissant.jpg" alt="French Chocolate Croissant">
+						<div class="menu-overlay">
+							<a href="menu.html" class="menu-btn">View Details</a>
+						</div>
+					</div>
+					<div class="menu-info">
+						<h3>French Chocolate Croissant</h3>
+						<span class="menu-category">Pastries</span>
+					</div>
+				</div>
+				<div class="menu-item">
+					<div class="menu-image">
+						<img src="asset/menu/butter sourdough croissant.jpg" alt="Butter Sourdough Croissant">
+						<div class="menu-overlay">
+							<a href="menu.html" class="menu-btn">View Details</a>
+						</div>
+					</div>
+					<div class="menu-info">
+						<h3>Butter Sourdough Croissant</h3>
+						<span class="menu-category">Pastries</span>
+					</div>
+				</div>
+				<div class="menu-item">
+					<div class="menu-image">
+						<img src="asset/menu/finest ny cheesecake.jpg" alt="NY Cheesecake">
+						<div class="menu-overlay">
+							<a href="menu.html" class="menu-btn">View Details</a>
+						</div>
+					</div>
+					<div class="menu-info">
+						<h3>NY Cheesecake</h3>
+						<span class="menu-category">Desserts</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu-cta">
+				<a href="menu.html" class="cta-button">View Full Menu</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Event Section -->
+	<section id="event_background">
+		<div class="container">
+			<h2 class="section-title">Special Offers & Events</h2>
+			<div class="events-grid">
+				<!-- Promotion Card -->
+				<div class="event-card promotion-card">
+					<div class="card-container">
+						<div class="card">
+							<div class="card-face card-front">
+								<img src="asset/card/b1f1front.jpg" alt="Buy 1 Free 1 Promotion Front">
+							</div>
+							<div class="card-face card-back">
+								<img src="asset/card/b1f1back.jpg" alt="Buy 1 Free 1 Promotion Back">
+							</div>
+						</div>
+					</div>
+					<div class="event-content">
+						<h3>Buy 1 Free 1</h3>
+						<p>A special deal offered to customers to get a free cup of coffee whenever they purchase one coffee from us.</p>
+						<a href="#" class="event-btn">Learn More</a>
+					</div>
+				</div>
+
+				<!-- Voucher Card -->
+				<div class="event-card voucher-card">
+					<div class="card-container">
+						<div class="card">
+							<div class="card-face card-front">
+								<img src="asset/card/voucherfront.jpg" alt="Discount Voucher Front">
+							</div>
+							<div class="card-face card-back">
+								<img src="asset/card/voucherback.jpg" alt="Discount Voucher Back">
+							</div>
+						</div>
+					</div>
+					<div class="event-content">
+						<h3>Special Discount</h3>
+						<p>Get exclusive discount vouchers when your spending reaches our preset amount. The more you enjoy, the more you save!</p>
+						<a href="#" class="event-btn">View Details</a>
+					</div>
+				</div>
+
+				<!-- Membership Card -->
+				<div class="event-card membership-card">
+					<div class="card-container">
+						<div class="card">
+							<div class="card-face card-front">
+								<img src="asset/card/MCfront.jpg" alt="Membership Card Front">
+							</div>
+							<div class="card-face card-back">
+								<img src="asset/card/MCback.jpg" alt="Membership Card Back">
+							</div>
+						</div>
+					</div>
+					<div class="event-content">
+						<h3>Membership Rewards</h3>
+						<p>Join our membership program to earn points with every purchase and redeem exclusive rewards and special items from our store.</p>
+						<a href="#" class="event-btn">Join Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- About Section -->
+	<section id="about_background">
+		<div class="container">
+			<h2 class="section-title">About Us</h2>
+			
+			<!-- History Section -->
+			<div class="about-grid">
+				<div class="about-content">
+					<h3 class="about-subtitle">Our Story</h3>
+					<p class="about-text">
+						Founded by three passionate entrepreneurs who met at Harvard University, Leaf Us Café began its journey in London's Bond Street in 2000. Inspired by their mentor Miss Athirah, we've grown from a single location to over 100 stores across Asia, bringing our unique blend of coffee culture and sustainable practices to coffee lovers everywhere.
+					</p>
+					<div class="about-stats">
+						<div class="stat-item">
+							<span class="stat-number">100+</span>
+							<span class="stat-label">Stores</span>
+						</div>
+						<div class="stat-item">
+							<span class="stat-number">2000</span>
+							<span class="stat-label">Founded</span>
+						</div>
+						<div class="stat-item">
+							<span class="stat-number">5M+</span>
+							<span class="stat-label">Happy Customers</span>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Location Section -->
+				<div class="location-container">
+					<h3 class="about-subtitle">Find Us</h3>
+					<div class="map-container">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63741.98636467246!2d101.68982557052136!3d3.1279565216979552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3614023d8ac1%3A0x16c2db2b9f094ca2!2sSunway%20Velocity%20Mall!5e0!3m2!1sen!2smy!4v1657464400018!5m2!1sen!2smy" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+
+			<!-- Founder Section -->
+			<div class="founder-section">
+				<h3 class="about-subtitle">Meet Our Founders</h3>
+				<div class="founder-grid">
+					<div class="founder-card">
+						<div class="founder-image">
+							<img src="asset/profile picture/founder1.jpg" alt="Khoh Chia Wei - CEO & Co-Founder">
+							<div class="founder-overlay"></div>
+						</div>
+						<div class="founder-info">
+							<h4>Khoh Chia Wei</h4>
+							<span class="founder-role">CEO & Co-Founder</span>
+							<p class="founder-quote">"Innovation and sustainability are at the heart of everything we do."</p>
+						</div>
+					</div>
+					<div class="founder-card">
+						<div class="founder-image">
+							<img src="asset/profile picture/founder3.jpg" alt="Woo Ke Sheng - COO & Co-Founder">
+							<div class="founder-overlay"></div>
+						</div>
+						<div class="founder-info">
+							<h4>Woo Ke Sheng</h4>
+							<span class="founder-role">COO & Co-Founder</span>
+							<p class="founder-quote">"Creating memorable experiences, one cup at a time."</p>
+						</div>
+					</div>
+					<div class="founder-card">
+						<div class="founder-image">
+							<img src="asset/profile picture/founder2.jpeg" alt="Low Kah Onn - CTO & Co-Founder">
+							<div class="founder-overlay"></div>
+						</div>
+						<div class="founder-info">
+							<h4>Low Kah Onn</h4>
+							<span class="founder-role">CTO & Co-Founder</span>
+							<p class="founder-quote">"Technology enhances our ability to serve you better."</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact Section -->
+			<div class="contact-section">
+				<div class="contact-grid">
+					<div class="contact-info">
+						<img src="asset/other/logo.png" alt="Leaf Us Café Logo" class="contact-logo">
+						<div class="contact-details">
+							<div class="contact-item">
+								<i class="fa-solid fa-location-dot"></i>
+								<p>Lot 2 - 69, Sunway Velocity Mall, Lingkaran SV, Sunway Velocity, 55100 Kuala Lumpur</p>
+							</div>
+							<div class="contact-item">
+								<i class="fa-solid fa-clock"></i>
+								<p>Open Daily: 10 AM - 10 PM</p>
+							</div>
+							<div class="contact-item">
+								<i class="fa-solid fa-phone"></i>
+								<p>03-1520 2520</p>
+							</div>
+						</div>
+						<div class="social-links">
+							<a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+							<a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="javascript/nav.js"></script>
+	<script src="javascript/slide.js"></script>
+	<script src="javascript/progressbar.js"></script>
+
+</body>
+</html>
