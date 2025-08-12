@@ -1,0 +1,136 @@
+/* founder card */
+.founder{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 50px;
+	width: 100%;
+	height: 100vh;
+}
+
+.founder .title{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.founder-card{
+	min-height: 70vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.f_card{
+	position: relative;
+	width: 350px;
+	height: 190px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0 0px 50px 10px rgba(0,0,0,0.3);
+	transition: height 500ms;
+}
+
+.f_card:hover{
+	height: 450px;
+}
+
+.profile{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	transform: translateX(-50%);
+	top: -50px;
+	left: 50%;
+	border-radius: 20px;
+	box-shadow: 0 0px 30px 0px rgba(0,0,0,0.5);
+	overflow: hidden;
+	transition: 500ms;
+}
+
+.profile img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+}
+
+.f_card:hover .profile{
+	width: 250px;
+	height: 250px;
+}
+
+.f_card .content{
+	position: absolute;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	overflow: hidden;
+}
+
+.f_card .content .info{
+	padding: 40px;
+	text-align: center;
+	width: 100%;
+	transition: 500ms;
+	transform: translateY(150px);
+}
+
+.f_card:hover .content .info{
+	transform: translateY(0px);
+}
+
+.f_card .content .info h2{
+	font-size: 1.25em;
+	font-weight: 600;
+	color: black;
+	line-height: 1.2em;
+}
+
+.f_card .content .info .career{
+	font-size: 1em;
+	font-weight: 600;
+	color: grey;
+	line-height: 1.2em;
+}
+
+.info .status{
+	color: black;
+	font-size: 1em;
+	margin-bottom: 12px;
+}
+
+.info .status .relation{
+	font-size: 0.8em;
+	color: grey;
+}
+
+.btn{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.btn button{
+	padding: 10px 30px;
+	background-color: rgb(0,0,0);
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+.btn button:nth-child(2){
+	color: #999;
+	border: 1px solid #999;
+	background-color: white;
+}

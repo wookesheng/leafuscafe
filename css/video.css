@@ -1,0 +1,22 @@
+/* video */
+.video{
+	position: relative;
+	margin-top: 11vh;
+}
+
+video{
+	position: absolute;
+	width: 100%;
+	height: 90vh;
+	object-fit: cover;
+	object-position: center;
+}
+
+/* Video clip mask */
+img[src*="mask"]{
+	position: absolute;
+	width: 100%;
+	height: 90vh;
+	mix-blend-mode: multiply;
+	filter: invert(1);
+}
